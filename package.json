@@ -1,0 +1,45 @@
+{
+	"name": "react-scroll-progress-indicator",
+	"version": "0.0.1",
+	"description": "react scroll progress indicator",
+	"source": "src/index.tsx",
+	"main": "./lib/cjs/index.js",
+	"module": "./lib/esm/index.js",
+	"types": "./lib/esm/index.d.ts",
+	"scripts": {
+		"build:esm": "tsc",
+		"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+		"build": "npm run build:esm && npm run build:cjs",
+		"test": "npm run test",
+		"clean": "rm -rf lib/*",
+		"working-clean-cmd": "rm -rf dist",
+		"parcel": "parcel build"
+	},
+	"keywords": [
+		"scroll",
+		"progress",
+		"scroll-indicator",
+		"scroll",
+		"progress"
+	],
+	"author": "therealmrGabi",
+	"license": "ISC",
+	"devDependencies": {
+		"@parcel/packager-ts": "^2.0.1",
+		"@parcel/transformer-typescript-types": "^2.0.1",
+		"@types/react": "^17.0.38",
+		"@types/react-dom": "^17.0.11",
+		"parcel": "^2.0.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"typescript": "^4.5.4"
+	},
+	"peerDependencies": {
+		"react": ">=16.8.0",
+		"react-dom": ">=16.8.0"
+	},
+	"files": [
+		"lib",
+		"src"
+	]
+}

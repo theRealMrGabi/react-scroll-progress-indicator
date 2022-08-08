@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "es6", "es2016", "es2017", "esnext"],
+		"jsx": "react",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"allowJs": true,
+		"declaration": true,
+		"outDir": "lib/esm",
+		"rootDir": "./src",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"preserveSymlinks": true /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "lib"]
+}
